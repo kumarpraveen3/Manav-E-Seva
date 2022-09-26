@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.main_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  margin-top: 50px;
+}
+.img_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.img_logo {
+  background-color: black;
+
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.hading_div {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hading {
+  font-size: 80px;
+  color: black;
+  animation: hadingAni 5s infinite;
+}
+@keyframes hadingAni {
+  from {
+    font-size: 10px;
+  }
+  to {
+    font-size: 70px;
+  }
+}
+/* 3rd block */
+.div_main_3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+  background-color: rgb(46, 46, 46);
+  height: 300px;
+}
+/* 4rd block */
+.div_main_4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 100px;
+  column-gap: 150px;
+  margin-top: 50px;
+  padding: 30px;
+  background-color: rgb(164, 158, 158);
+}
+.div_main_5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: white;
+  background-color: rgb(46, 46, 46);
+  height: 300px;
+  row-gap: 20px;
+}
+
+/* responcivb*/
+@media (max-width: 760px) {
+  #main_div_id {
+    align-items: center;
+  }
+  .main_div {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .hading {
+    font-size: 50px;
+  }
+  .hading_div {
+    height: 150px;
+  }
+  @keyframes hadingAni {
+    0% {
+      font-size: 50px;
+      transform: rotateY(0);
+    }
+    50% {
+      font-size: 50px;
+      transform: rotateY(3.142rad);
+    }
+  }
+  .div_main_3 {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .div_main_5 {
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
