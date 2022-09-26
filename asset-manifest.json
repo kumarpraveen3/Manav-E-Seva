@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kumarpraveen3/Manav-E-Seva.git/static/css/main.80ccb16c.css",
+    "main.js": "/kumarpraveen3/Manav-E-Seva.git/static/js/main.b321ade6.js",
+    "static/js/787.76fcb95a.chunk.js": "/kumarpraveen3/Manav-E-Seva.git/static/js/787.76fcb95a.chunk.js",
+    "static/media/logo.png": "/kumarpraveen3/Manav-E-Seva.git/static/media/logo.891c32636d3b3c281a7e.png",
+    "index.html": "/kumarpraveen3/Manav-E-Seva.git/index.html",
+    "main.80ccb16c.css.map": "/kumarpraveen3/Manav-E-Seva.git/static/css/main.80ccb16c.css.map",
+    "main.b321ade6.js.map": "/kumarpraveen3/Manav-E-Seva.git/static/js/main.b321ade6.js.map",
+    "787.76fcb95a.chunk.js.map": "/kumarpraveen3/Manav-E-Seva.git/static/js/787.76fcb95a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80ccb16c.css",
+    "static/js/main.b321ade6.js"
+  ]
+}
